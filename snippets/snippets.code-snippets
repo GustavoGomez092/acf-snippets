@@ -349,7 +349,7 @@
     "description": "PHP Syntax for creating an ACF Color Picker"
   },
   "ACF Date Picker": {
-    "prefix": "!acf-date_picker",
+    "prefix": "!acf-date-picker",
     "body": [
       "array(",
 			"'key' => 'field_${RANDOM_HEX}${CURRENT_SECOND}${RANDOM_HEX}',",
@@ -372,7 +372,7 @@
     "description": "PHP syntax for creating an ACF Date Picker"
   },
   "ACF Date Time Picker": {
-    "prefix": "!acf-date_time_picker",
+    "prefix": "!acf-date-time-picker",
     "body": [
       "array(",
       "'key' => 'field_${RANDOM_HEX}${CURRENT_SECOND}${RANDOM_HEX}',",
@@ -395,7 +395,7 @@
     "description": "PHP syntax for creating an ACF Date Time Picker"
   },
   "ACF Time Picker": {
-    "prefix": "!acf-time_picker",
+    "prefix": "!acf-time-picker",
     "body": [
     	"array(",
 			"'key' => 'field_${RANDOM_HEX}${CURRENT_SECOND}${RANDOM_HEX}',",
@@ -465,7 +465,7 @@
     "description": "PHP syntax for creating an ACF Clone"
   },
   "ACF Flexible Content": {
-    "prefix": "!acf-flexible_content",
+    "prefix": "!acf-flexible-content",
     "body": [
       "array(",
 			"'key' => 'field_${RANDOM_HEX}${CURRENT_SECOND}${RANDOM_HEX}',",
@@ -573,7 +573,7 @@
     "description": "PHP syntax for creating an ACF Link"
   },
   "ACF Page Link": {
-    "prefix": "!acf-page_link",
+    "prefix": "!acf-page-link",
     "body": [
       "array(",
 			"'key' => 'field_${RANDOM_HEX}${CURRENT_SECOND}${RANDOM_HEX}',",
@@ -598,7 +598,7 @@
     "description": "PHP syntax for creating an ACF Page Link"
   },
   "ACF Post Object": {
-    "prefix": "!acf-post_object",
+    "prefix": "!acf-post-object",
     "body": [
       "array(",
 			"'key' => 'field_${RANDOM_HEX}${CURRENT_SECOND}${RANDOM_HEX}',",
