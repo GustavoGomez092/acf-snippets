@@ -18,7 +18,7 @@ Just install the extension and create/open a new PHP file.
 
 * Finished adding all ACF fields to the snippets.
 
-### 1.0.0
+### 0.0.1
 
 Initial release of ACF-VS
 
