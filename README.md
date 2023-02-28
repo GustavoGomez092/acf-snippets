@@ -4,7 +4,7 @@ Welcom to ACF-VS a VS Code Extension with shorthand syntax to register ACF field
 
 ## Features
 
-ACF-VS allows you to access all existing ACF fields via the ```!acf-``` shorthand syntax. 
+ACF-VS allows you to access all existing ACF fields via the `!acf-` shorthand syntax. 
 
 ![Preview image](/img/hero.gif)
 
