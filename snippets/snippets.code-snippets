@@ -279,7 +279,7 @@
         "'label' => '${1:label}',",
         "'name' => '${2:name}',",
         "'type' => 'image',",
-        "'instructions' => ''",
+        "'instructions' => '',",
         "'required' => 0,",
         "'conditional_logic' => 0,",
         "'wrapper' => array(",
