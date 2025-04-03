@@ -4,7 +4,7 @@ Welcom to ACF-VS a VS Code Extension with shorthand syntax to register ACF field
 
 ## Features
 
-ACF-VS allows you to access all existing ACF fields via the `!acf-` shorthand syntax. 
+ACF-VS allows you to access all existing ACF fields via the `!acf-` shorthand syntax.
 
 ![Preview image](/img/hero.gif)
 
@@ -16,11 +16,10 @@ Just install the extension and create/open a new PHP file.
 
 ## Release Notes
 
-* Finished adding all ACF fields to the snippets.
+- Finished adding all ACF fields to the snippets.
 
-### 0.0.1
+### 0.0.2
 
 Initial release of ACF-VS
-
 
 **Enjoy!**
