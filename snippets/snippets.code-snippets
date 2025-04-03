@@ -23,7 +23,8 @@
       "'sub_fields' => [",
       "",
       "],",
-      "),"
+      "],",
+      
     ],
     "description": "PHP syntax for creating an ACF Group"
   },
@@ -170,7 +171,7 @@
           "'id' => '',",
         "],",
         "'choices' => [",
-          "'option' => 'Option 1',",
+        "  'option' => 'Option 1',",
         "],",
         "'allow_null' => 0,",
         "'other_choice' => 0,",
@@ -178,7 +179,7 @@
         "'layout' => 'vertical',",
         "'return_format' => 'value',",
         "'save_other_choice' => 0,",
-          "],",
+      "],"
     ],
     "description": "PHP Syntax for creating an ACF Radio Button"
   },
@@ -238,7 +239,7 @@
         "],",
         "'message' => '',",
         "'default_value' => 0,",
-        "'ui' => 0,",
+        "'ui' => 1,",
         "'ui_on_text' => '',",
         "'ui_off_text' => '',",
       "],",
@@ -385,6 +386,7 @@
         "'show_in_graphql' => 1,",
         "'graphql_description' => '',",
         "'graphql_non_null' => 0,",
+        "'type' => 'color_picker',",
         "'instructions' => '',",
         "'required' => 0,",
         "'conditional_logic' => 0,",
@@ -423,7 +425,7 @@
 			"'display_format' => 'm/d/Y',",
 			"'return_format' => 'm/d/Y',",
 			"'first_day' => 1,",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Date Picker"
   },
@@ -450,7 +452,7 @@
       "'display_format' => 'm/d/Y g:i a',",
       "'return_format' => 'm/d/Y g:i a',",
       "'first_day' => 1,",
-      "),"
+      "],"
     ],
     "description": "PHP syntax for creating an ACF Date Time Picker"
   },
@@ -503,7 +505,7 @@
       "'open' => 0,",
       "'multi_expand' => 0,",
       "'endpoint' => 0,",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Accordion"
   },
@@ -532,7 +534,7 @@
       "'layout' => 'block',",
       "'prefix_label' => 0,",
       "'prefix_name' => 0,",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Clone"
   },
@@ -564,7 +566,7 @@
       "   'display' => 'block',",
       "   'sub_fields' => [",
       "",
-      "   ),",
+      "   ],",
       "   'min' => '',",
       "   'max' => '',",
       "],",
@@ -572,7 +574,7 @@
       "'button_label' => 'Add Row',",
       "'min' => '',",
       "'max' => '',",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Flexible Content"
   },
@@ -631,7 +633,7 @@
 			"],",
 			"'placement' => 'top',",
 			"'endpoint' => 0,",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Tab"
   },
@@ -656,7 +658,7 @@
 			"   'id' => '',",
 			"],",
 			"'return_format' => 'array',",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Link"
   },
@@ -685,7 +687,7 @@
 			"'allow_null' => 0,",
 			"'allow_archives' => 1,",
 			"'multiple' => 0,",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Page Link"
   },
@@ -715,7 +717,7 @@
 			"'multiple' => 0,",
 			"'return_format' => 'object',",
 			"'ui' => 1,",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Post Object"
   },
@@ -750,7 +752,7 @@
       "'min' => '',",
       "'max' => '',",
       "'return_format' => 'object',",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Relationship"
   },
@@ -782,7 +784,7 @@
 			"'return_format' => 'id',",
 			"'multiple' => 0,",
 			"'allow_null' => 0,",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF Taxonomy"
   },
@@ -810,7 +812,7 @@
 			"'allow_null' => 0,",
 			"'multiple' => 0,",
 			"'return_format' => 'array',",
-		  "),"
+		  "],"
     ],
     "description": "PHP syntax for creating an ACF User"
   },
